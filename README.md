@@ -4,8 +4,6 @@ A React Native video player with a few controls. This player uses
 react-native-video for the video playback.
 
 
-![demo gif](https://raw.githubusercontent.com/cornedor/react-native-video-player/master/demo.gif "Demo GIF")
-
 ## Installation
 
 ```
