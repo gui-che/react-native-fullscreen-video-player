@@ -16,7 +16,7 @@
   ],
   "author": "gui-che <isguiche@gmail.com>",
   "license": "ISC",
-  "repository": "gui-che/react-native-fullscreen-video-player",
+  "repository": "cornedor/react-native-video-player",
   "peerDependencies": {
     "prop-types": "*",
     "react": "*",
