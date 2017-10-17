@@ -1,4 +1,5 @@
-package com.my.package;
+package com.favoritevideorn;
+
 
 
 import com.facebook.react.ReactPackage;
@@ -13,10 +14,11 @@ import java.util.List;
 
 public class BridgePackage implements ReactPackage {
 
-    @Override
-    public List<Class<? extends JavaScriptModule>> createJSModules() {
-        return Collections.emptyList();
-    }
+	// when use rn < 0.47 then open it
+    // @Override
+    // public List<Class<? extends JavaScriptModule>> createJSModules() {
+    //     return Collections.emptyList();
+    // }
 
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {

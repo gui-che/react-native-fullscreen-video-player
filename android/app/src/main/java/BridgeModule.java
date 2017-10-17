@@ -1,4 +1,4 @@
-package com.my.package;
+package com.favoritevideorn;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,6 +9,7 @@ import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 
+@SuppressWarnings("ALL")
 public class BridgeModule extends ReactContextBaseJavaModule{
     public BridgeModule(ReactApplicationContext reactContext) {
         super(reactContext);
@@ -21,7 +22,8 @@ public class BridgeModule extends ReactContextBaseJavaModule{
     @ReactMethod
     public void showFullscreen(String videoUri) {
         Context context = getReactApplicationContext();
-        Intent intent = new Intent(context, VideoActivity.class); // mContext got from your overriden constructor
+		// Intent intent = new Intent(context, VideoActivity.class); // mContext got from your overriden constructor
+        Intent intent = new Intent(context, ExoActivity.class); // mContext got from your overriden constructor
         intent.putExtra("VIDEO_URL",videoUri);
         getCurrentActivity().startActivity(intent);
     }

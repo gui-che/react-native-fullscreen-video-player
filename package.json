@@ -1,6 +1,6 @@
 {
-  "name": "react-native-video-player",
-  "version": "0.8.0",
+  "name": "react-native-fullscreen-video-player",
+  "version": "1.0.0",
   "description": "A video player for React Native with controls",
   "main": "index.js",
   "scripts": {
@@ -11,9 +11,10 @@
     "react-component",
     "react-native",
     "ios",
-    "android"
+    "android",
+	"video"
   ],
-  "author": "Corné Dorrestijn <contact@corne.info>",
+  "author": "gui-che <isguiche@gmail.com>",
   "license": "ISC",
   "repository": "cornedor/react-native-video-player",
   "peerDependencies": {
