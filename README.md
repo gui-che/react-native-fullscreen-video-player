@@ -91,6 +91,7 @@ Make a folder in your ```android\app\src\main\res``` directory and name it ```la
                android:configChanges="orientation|screenSize"
             />
             ```
+
 Step 3:
 
 Make a folder in your ```android\app\src\main\res``` directory and name it ```values```, then copy the repo's ```android\app\src\main\res\values``` directory and paste it into your directory.
